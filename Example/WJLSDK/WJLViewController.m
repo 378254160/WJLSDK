@@ -7,7 +7,6 @@
 //
 
 #import "WJLViewController.h"
-#import <WJLSDK/NSString+Base64.h>
 @interface WJLViewController ()
 
 @end
