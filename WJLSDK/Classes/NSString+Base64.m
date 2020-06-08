@@ -19,6 +19,7 @@ static char base64EncodingTable[64] = {
 
 
 
+
 + (NSString *)base64StringFromData: (NSData *)data length: (NSUInteger)length {
   unsigned long ixtext, lentext;
   long ctremaining;
