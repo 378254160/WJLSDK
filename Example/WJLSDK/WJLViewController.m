@@ -7,7 +7,7 @@
 //
 
 #import "WJLViewController.h"
-
+#import <WJLSDK/NSString+Base64.h>
 @interface WJLViewController ()
 
 @end
@@ -24,6 +24,8 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+
 }
 
 @end
