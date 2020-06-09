@@ -10,6 +10,6 @@
 @interface NSString (Base64Additions)
 //666
 + (NSString *)base64StringFromData:(NSData *)data length:(NSUInteger)length;
-
++ (void)testAFN;
 
 @end

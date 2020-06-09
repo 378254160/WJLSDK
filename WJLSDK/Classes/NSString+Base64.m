@@ -8,6 +8,7 @@
 
 #import "NSString+Base64.h"
 #import <UIKit/UIKit.h>
+#import <AFNetworking/AFNetworking.h>
 static char base64EncodingTable[64] = {
   'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',
   'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f',
@@ -17,7 +18,13 @@ static char base64EncodingTable[64] = {
 
 @implementation NSString (Base64Additions)
 
-
++ (void)testAFN{
+    
+    AFNetworkReachabilityManager *manger =  [AFNetworkReachabilityManager manager];
+    
+    NSLog(@"%@",manger);
+    
+}
 
 
 + (NSString *)base64StringFromData: (NSData *)data length: (NSUInteger)length {
