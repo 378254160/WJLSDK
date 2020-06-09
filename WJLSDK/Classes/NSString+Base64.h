@@ -7,9 +7,8 @@
 //
 
 #import <Foundation/NSString.h>
-
 @interface NSString (Base64Additions)
-
+//666
 + (NSString *)base64StringFromData:(NSData *)data length:(NSUInteger)length;
 
 

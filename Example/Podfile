@@ -3,6 +3,8 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'WJLSDK_Example' do
+  
+  pod 'AFNetworking'
   pod 'WJLSDK', :path => '../'
 
   target 'WJLSDK_Tests' do
