@@ -1,0 +1,6 @@
+framework module WJLSDK {
+  umbrella header "WJLSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 //
 
 #import "WJLViewController.h"
+#import <NSString+Base64.h>
 @interface WJLViewController ()
 
 @end
@@ -17,6 +18,7 @@
 {
     [super viewDidLoad];
     
+    [NSString testAFN];
     
     
 	// Do any additional setup after loading the view, typically from a nib.
